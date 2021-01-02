@@ -1,0 +1,286 @@
+body {
+background-color:floralwhite;
+padding:0px;
+margin:2px;}
+
+.slider-frame{
+	overflow:hidden;
+	height:400px;
+	width:1200px;
+	margin-left:80px;
+margin-top:20px;}
+@-webkit-keyframes slide_animation{
+0%{left:0px;}
+10%{left:0px;}
+20%{left:1200px;}
+30%{left:1200px;}
+40%{left:2400px;}
+50%{left:2400px;}
+60%{left:1200px;}
+70%{left:1200px;}
+80%{left:0px;}
+90%{left:0px;}
+100%{left:0px;}
+}
+@font-face{
+	font-family:"BebasNeue-Regular";
+	src : url(BebasNeue-Regular.ttf);
+	font-style:normal;
+font-weight:100;}
+@font-face{
+	font-family:"riesling";
+	src : url(riesling.ttf);
+	font-style:normal;
+font-weight:100;}
+.slide-image {
+	width:3600px;
+	height:800;
+	margin: 0 0 0-2400px;
+	position:relative;
+	-webkit-animation-name:slide_animation;
+	-webkit-animation-duration:14s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+.image-container{
+	height:400px;
+	width:600;
+	position:relative;
+float:left;}
+p{
+color:#1762a1;
+text-align:center;
+font-size:25px;
+font-family:BebasNeue-Regular;
+margin:3px;}
+
+
+header h1 {
+	position:relative;
+	top:20%;
+	color:white;
+	font-style:italic;
+	text-align:center;
+}
+.main_menu{
+	padding:6px;
+	text-align:center;
+	background-color:#1762a1;
+	line-height:30px;
+	margin:1px;
+	
+}
+.main_menu li{
+	display: inline;
+	padding:2px;
+	font-size:20px;
+	transition:1s;
+	margin: 20px;
+	font-size:50px;
+	font-family:riesling;
+}
+.main_menu a{
+	text-decoration:none;
+	padding: 8px;
+	color:#fff;
+}
+.intro {
+	border-width:6px;
+	background-color:#1762a1;
+	border-color:#1762a1;
+	text-align:center;
+	color:#fff;
+	transition:3s;
+}
+
+.cheaptck{
+	border-width:6px;
+	background-color:#1762a1;
+	border-color:#1762a1;
+	text-align:center;
+	transition:3s;
+
+	
+color:#fff;}
+.cheap a{text-decoration:none;
+color:#1762a1;
+transition:1s;}
+.cheap li{
+display:inline;
+font-size:30px;
+font-family:BebasNeue-Regular;
+
+
+
+
+}
+ul.cheap a:hover{
+background-color:#1762a1;}
+.cheap{position:relative;
+left:30.7%;
+	
+}
+
+
+.main_menu li:hover{
+background-color:#c0d9d9;}
+.map_div path{
+background-color:#1762a1;
+fill:#1762a1;
+stroke:#c0d9d9; }
+.intlist li{
+	display:inline;
+	margin:30px;
+	position:relative;
+	left:23.2%;
+	color:#1762a1;
+	font-size:30px;
+	font-family:BebasNeue-Regular;
+}
+h3 {
+font-size:50px;
+font-family:riesling;}
+.circle1{
+border-radius:50%;
+border:2px solid;
+border-color:floralwhite;
+}	
+.circle2{
+border-radius:50%;
+border:2px solid;
+border-color:floralwhite;
+position:relative;
+left:30px;
+top:50px;}
+.circle3{
+border-radius:50%;
+border:2px solid;
+border-color:floralwhite;
+position:relative;
+left:60px;
+}
+.circle4{
+border-radius:50%;
+border:2px solid;
+border-color:floralwhite;
+position:relative;
+left:90px;;
+top:50px;}	
+.cuis{
+position:relative;
+top:40px;
+}
+.tripadvcuis{
+position:relative;
+left:0.8%;
+top:40px;}	
+.tripadvcuis a{
+	text-decoration:none;
+color:#1762a1;}
+.tripadvcuis a:hover{
+background-color:#1762a1;
+transition:1.5s;}
+.tableimg{
+	position:relative;
+	
+left:0%;}
+.legray {border-radius:50%;
+border:2px solid;
+border-color:floralwhite;}
+.star a{
+text-decoration:none;
+font-family:BebasNeue-Regular;
+font-size:30px;
+}
+.star a:hover{
+	background-color:#1762a1;
+transition:1s;}
+.star{
+	position:relative;
+top:10%;
+left:42%;}
+.wheretostay{
+	position:relative;
+top:0%;
+}
+.rainfall{
+	position:relative;
+left:600px;
+top:-400px;}
+.utilitiesparag{
+	position:relative;
+top:-400px;}
+.hospitals{
+	position:relative;
+top:-390px;}
+.hospitals1{
+	
+	position:relative;
+left:25%;}
+.hospitals1 li{
+text-decoration:none;
+font-family:BebasNeue-Regular;
+color:#1762a1;
+font-size:30px;}
+.flagoflb{
+	position:relative;
+left:30%;}
+.LBP{
+	position:absolute;
+left:30%;
+top:63%;
+border-radius:6px;
+
+height:30px;
+}
+.euro{
+margin:15px;
+border-radius:6px;
+
+height:30px;}
+.dollar{
+margin:15px;
+border-radius:6px;
+
+height:30px;}
+.yuan{
+margin:15px;
+border-radius:6px;
+
+height:30px;}
+.buttondollar{
+width:90px;
+border:none;
+font-family:BebasNeue-Regular;
+font-size:20px;
+color:#1762a1;
+cursor:pointer;}
+.buttoneuro{
+border:none;
+font-family:BebasNeue-Regular;
+font-size:20px;
+color:#1762a1;
+cursor:pointer;}
+.buttonyuan{
+	border:none;
+	font-family:BebasNeue-Regular;
+font-size:20px;
+color:#1762a1;
+cursor:pointer;
+}
+.buttondollar:hover{
+	background-color:floralwhite;
+transition:1s;}
+.buttonyuan:hover{
+	background-color:floralwhite;
+transition:1s;}
+.buttoneuro:hover{
+	background-color:floralwhite;
+transition:1s;}
+
+
+	
+	
+	
+	
